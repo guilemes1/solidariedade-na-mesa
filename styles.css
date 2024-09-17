@@ -1,0 +1,159 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.user-page, .login-btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+}
+
+.login-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 200px);
+    background-color: #fff;
+}
+
+.login-container {
+    width: 40%;
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-container form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-container form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.google-login {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.facebook-login {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.image-container img {
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: #333;
+    color: #fff;
+}
+
+.left-section {
+    margin-left: 20px;
+
+}
+
+.right-section {
+    margin-right: 20px;
+}
+
+.right-section img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.social-links img {
+    width: 25px;
+    margin: 0 12px;
+    margin-bottom: 20px;
+}
