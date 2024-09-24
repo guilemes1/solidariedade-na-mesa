@@ -59,24 +59,25 @@ nav {
 
 .login-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: calc(100vh - 200px);
     background-color: #fff;
 }
 
 .login-container {
-    width: 40%;
+    width: 30%;
     padding: 100px;
     background-color: #f0f0f0;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    /*height: 50%;*/
+    height: 75%;
 }
 
 .login-container h2 {
     margin-bottom: 40px;
     font-size: 24px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -91,7 +92,7 @@ nav {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
-    width: 50%;
+    width: 70%;
 }
 
 .login-container form button {
@@ -146,10 +147,39 @@ nav {
     margin-right: 10px;
 }
 
-.image-container img {
-    max-width: 400px;
-    border-radius: 20px;
+.image-container {
+    width: 30%;
+    /*padding: 100px;*/
+    background-color: #9181F4;
+    border-radius: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 75%;
+    position: relative;
+}
+
+.background-image {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    border-radius: 30px;
+}
+
+.overlay-image-1 {
+    position: absolute;
+    top: 50%;   /* Posição vertical: Ajuste conforme necessário */
+    left: 50%;  /* Posição horizontal: Ajuste conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    width: 310px; /* Defina o tamanho da imagem sobreposta */
+    height: auto;
+    border-radius: 30px;
+}
+
+.overlay-image-2 {
+    position: absolute;
+    top: 50%;   /* Posição vertical: Ajuste conforme necessário */
+    left: 50%;  /* Posição horizontal: Ajuste conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    width: 290px; /* Defina o tamanho da imagem sobreposta */
+    height: auto;
 }
 
 footer {
