@@ -1,0 +1,246 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.menu a strong{
+    font-weight: bold;
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.user-page, .login-btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: calc(100vh - 200px);*/
+    height: 520px;
+    background-color: #fff;
+    margin: 75px 0;
+}
+
+.text-container {
+    width:35%;
+    padding: 100px;
+    background-color: #f0f0f0;
+    /*border-radius: 10px;*/
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.text-container h2 {
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-container h1 {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 2; /* Ajusta o espaçamento entre as linhas */
+    text-align: justify;
+}
+
+
+.image-container {
+    width: 35%;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+    /*border-radius: 30px; */
+    border-top-right-radius: 30px; /* Canto superior direito */
+    border-bottom-right-radius: 30px; /* Canto inferior direito */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    position: relative;
+}
+
+.background-image {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    /*border-radius: 30px; */
+    border-top-right-radius: 30px; /* Canto superior direito */
+    border-bottom-right-radius: 30px; /* Canto inferior direito */
+}
+
+.overlay-image-2 {
+    position: absolute;
+    top: 50%;   /* Posição vertical: Ajuste conforme necessário */
+    left: 50%;  /* Posição horizontal: Ajuste conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    width: 450px; /* Defina o tamanho da imagem sobreposta */
+    height: auto;
+    border-radius: 30px;
+}
+
+/* Seção de Doação */
+.doacao-section {
+    text-align: center;
+    padding: 0 275px;
+    background-color: #ffffff;
+}
+
+.doacao-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.doacao-section p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 30px;
+    
+}
+
+.doacao-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.doacao-button:hover {
+    background-color: #bbb;
+}
+
+/* Seção de Ajuda */
+.ajuda-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.ajuda-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.ajuda-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ajuda-images img {
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Seção "Quem somos" */
+.quem-somos-section {
+    text-align: center;
+    padding: 0 275px;
+    background-color: #ffffff;
+    margin-bottom: 75px;
+}
+
+.quem-somos-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.quem-somos-section p {
+    font-size: 18px;
+    color: #555;
+    /*max-width: 600px;*/
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Rodapé */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: #333;
+    color: #fff;
+}
+
+.left-section {
+    margin-left: 20px;
+}
+
+.left-section p:first-child {
+    margin-bottom: 10px; /* Adicione o valor de espaçamento desejado */
+}
+
+.right-section {
+    margin-right: 20px;
+    margin-top: auto;
+}
+
+.right-section p {
+    margin-bottom: 10px;
+}
+
+.right-section img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-links img {
+    width: 25px;
+    margin: 0 12px;
+}

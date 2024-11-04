@@ -69,7 +69,9 @@ nav {
     width: 30%;
     padding: 100px;
     background-color: #f0f0f0;
-    border-radius: 10px;
+    /*border-radius: 30px;*/
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     height: 75%;
 }
@@ -151,7 +153,9 @@ nav {
     width: 30%;
     /*padding: 100px;*/
     background-color: #9181F4;
-    border-radius: 30px;
+    /*border-radius: 30px; */
+    border-top-right-radius: 30px; /* Canto superior direito */
+    border-bottom-right-radius: 30px; /* Canto inferior direito */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     height: 75%;
     position: relative;
@@ -160,7 +164,9 @@ nav {
 .background-image {
     height: -webkit-fill-available;
     width: -webkit-fill-available;
-    border-radius: 30px;
+    /*border-radius: 30px; */
+    border-top-right-radius: 30px; /* Canto superior direito */
+    border-bottom-right-radius: 30px; /* Canto inferior direito */
 }
 
 .overlay-image-1 {
