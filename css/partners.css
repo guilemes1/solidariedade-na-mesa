@@ -1,0 +1,262 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.menu a strong{
+    font-weight: bold;
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.user-page, .login-btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: calc(100vh - 200px);*/
+    height: 520px;
+    background-color: #fff;
+    margin: 75px 0;
+}
+
+.text-container {
+    width:35%;
+    padding: 100px;
+    background-color: #f0f0f0;
+    /*border-radius: 10px;*/
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.text-container h2 {
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-container h1 {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 2; /* Ajusta o espaçamento entre as linhas */
+    text-align: justify;
+}
+
+
+.image-container {
+    width: 35%;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+    /*border-radius: 30px; */
+    border-top-right-radius: 30px; /* Canto superior direito */
+    border-bottom-right-radius: 30px; /* Canto inferior direito */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    position: relative;
+}
+
+.background-image {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    /*border-radius: 30px; */
+    border-top-right-radius: 30px; /* Canto superior direito */
+    border-bottom-right-radius: 30px; /* Canto inferior direito */
+}
+
+.overlay-image-2 {
+    position: absolute;
+    top: 50%;   /* Posição vertical: Ajuste conforme necessário */
+    left: 50%;  /* Posição horizontal: Ajuste conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    width: 450px; /* Defina o tamanho da imagem sobreposta */
+    height: auto;
+    border-radius: 30px;
+}
+
+
+/************************* Estilo das seções de parceiros ***************************/
+.ong-section, .company-section, .contact-section {
+    margin: 75px auto;
+    padding: 0 260px;
+    text-align: center;
+}
+
+.ong-section h2, .company-section h2, .contact-section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.partner-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.partner-card {
+    width: 30%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.partner-card img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.partner-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.partner-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.partner-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.partner-card button:hover {
+    background-color: #555;
+}
+
+/********************** Estilo do formulário de contato **********************/
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-section button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button:hover {
+    background-color: #555;
+}
+
+
+/* Rodapé */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: #333;
+    color: #fff;
+}
+
+.left-section {
+    margin-left: 20px;
+}
+
+.left-section p:first-child {
+    margin-bottom: 10px; /* Adicione o valor de espaçamento desejado */
+}
+
+.right-section {
+    margin-right: 20px;
+    margin-top: auto;
+}
+
+.right-section p {
+    margin-bottom: 10px;
+}
+
+.right-section img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-links img {
+    width: 25px;
+    margin: 0 12px;
+}
