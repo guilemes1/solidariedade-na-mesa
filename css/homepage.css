@@ -166,7 +166,7 @@ nav {
 .ajuda-section {
     text-align: center;
     padding: 50px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 .ajuda-section h2 {
@@ -182,7 +182,7 @@ nav {
 }
 
 .ajuda-images img {
-    width: 200px; /* Ajuste conforme necessário */
+    width: 600px; /* Ajuste conforme necessário */
     height: auto;
     border-radius: 10px;
 }

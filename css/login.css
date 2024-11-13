@@ -83,6 +83,11 @@ nav {
     text-align: center;
 }
 
+.login-container p {
+    font-size: 16px;
+    text-align: center;
+}
+
 .login-container form {
     display: flex;
     flex-direction: column;
@@ -109,6 +114,7 @@ nav {
 .social-login {
     margin-top: 20px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .social-login p {
