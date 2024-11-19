@@ -28,11 +28,11 @@
         <section class="login-section">
             <div class="login-container">
                 <h2>REGISTER</h2>
-                <form action="#">
-                    <input type="text" id="username" name="username" placeholder="Nome de usuário">
-                    <input type="email" id="email" name="email" placeholder="Email">
-                    <input type="password" id="password" name="password" placeholder="Senha">
-                    <input type="password" id="password" name="password" placeholder="Confirme sua senha">
+                <form id="registerForm" action="#">
+                    <input type="text" name="name" placeholder="Nome do usuário" required />
+                    <input type="email" id="email" name="login" placeholder="Email" required />
+                    <input type="password" name="senha" placeholder="Senha" required />
+                    <input type="password" name="confirmarSenha" placeholder="Confirme sua senha" required />
                     <button type="submit">Registrar</button>
                 </form>
                 <div class="social-login">
@@ -57,7 +57,7 @@
         </div>
     </footer>
     
-    <script src="js/script.js"></script>
+    <script src="js/register.js"></script>
 </body>
 </html>
 
