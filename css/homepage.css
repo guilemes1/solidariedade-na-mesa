@@ -156,6 +156,8 @@ nav {
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-decoration: none;
+    color: #000;
 }
 
 .doacao-button:hover {

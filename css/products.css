@@ -61,70 +61,89 @@ nav {
     color: #333;
 }
 
-.login-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*height: calc(100vh - 200px);*/
-    height: 520px;
-    background-color: #fff;
-    margin: 75px 0;
-}
 
-main {
-    padding: 0 275px;
-    align-items: center;
-    margin-bottom: 70px;
-}
-
-h1 {
-    font-size: 2em;
+/* Seção FAQ */
+.products-section {
+    background-color: #ffffff; /* Fundo roxo */
     text-align: left;
-    margin-bottom: 30px;
     color: #333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
 }
 
-.cestas {
-    margin-bottom: 70px;
+.products-header {
+    background-image: url('/img/background.png'); /* Caminho da imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra toda a área da seção */
+    background-position: center; /* Centraliza a imagem */
+    color: #fff;
+    text-align: left;
+    padding: 150px 215px 30px; /* Espaçamento para o texto */
+    position: relative;
+    margin-bottom: 50px;
 }
 
-.cesta-item {
-    background-color: #fff;
-    border: 1px solid #ddd;
+.products-header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    z-index: 1; /* Para garantir que o texto fique à frente do fundo */
+}
+
+.products-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 215px;
+}
+
+.products-item {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #eaeaea;
     border-radius: 8px;
-    padding: 20px;
-    margin: 10px 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.cesta-item h2 {
-    font-size: 1.5em;
+.products-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.products-content {
+    padding: 15px;
+}
+
+.products-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
     color: #333;
 }
 
-.cesta-item p {
-    font-size: 1em;
+.products-content p {
+    font-size: 14px;
+    margin-bottom: 15px;
     color: #666;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
-.cesta-item a {
-    background-color: #eee;
-    border: 1px solid #ccc;
+.products-btn {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
     border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 1em;
+    padding: 8px 12px;
     cursor: pointer;
-    color: #333;
-    transition: background-color 0.3s ease;
-    text-decoration: none;  
+    transition: background-color 0.3s;
 }
 
-.cesta-item a:hover {
-    background-color: #ddd;
+.products-btn:hover {
+    background-color: #5a54d8;
 }
-
 
 /* Rodapé */
 footer {

@@ -1,0 +1,207 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.user-page, .login-btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+}
+
+
+/* Conteúdo Principal */
+.basket-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 80px;
+    background-color: #fff;
+    margin: 20px 215px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.basket-image img {
+    max-width: 550px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.basket-image p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.details-background {
+    background-image: url('/img/background.png'); /* Cor roxa */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem no fundo */
+    padding: 60px 30px; /* Espaçamento interno para criar o "colchão" */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras para destaque */
+    margin-top: 20px; /* Distância da imagem ou de outros elementos */
+    width: 550px;
+    height: 550px;
+}
+
+.basket-details {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.basket-details h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.basket-donation {
+    margin: 20px 0;
+}
+
+.basket-donation label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.quantity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.quantity-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#quantity {
+    width: 270px;
+    height: 31px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.add-to-cart {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    width: 75%;
+
+}
+
+.add-to-cart:hover {
+    background-color: #5a54d8;
+}
+
+.thank-you-msg {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: #333;
+    color: #fff;
+}
+
+.left-section {
+    margin-left: 20px;
+}
+
+.left-section p:first-child {
+    margin-bottom: 10px; /* Adicione o valor de espaçamento desejado */
+}
+
+.right-section {
+    margin-right: 20px;
+    margin-top: auto;
+}
+
+.right-section p {
+    margin-bottom: 10px;
+}
+
+.right-section img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-links img {
+    width: 25px;
+    margin: 0 12px;
+}
